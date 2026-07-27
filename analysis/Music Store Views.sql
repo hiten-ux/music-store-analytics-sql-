@@ -374,7 +374,26 @@ ORDER BY avg_invoices_per_customer DESC
 LIMIT 5;
 
 
+feat: add all 18 business intelligence views
 
+- vw_invoice_detail (master fact table)
+- vw_monthly_sales (revenue trends)
+- vw_sales_by_genre (genre performance)
+- vw_sales_by_country (geographic analysis)
+- vw_customer_lifetime_value (customer value)
+- vw_top_customers (top 10 VIPs)
+- vw_top_tracks (best-selling tracks)
+- vw_employee_performance (sales agent KPIs)
+- vw_sales_trend (daily trends)
+- vw_album_performance (album ranking)
+- vw_artist_revenue (artist ranking)
+- vw_invoice_summary (time aggregation)
+- vw_repeat_purchase_rate (loyalty)
+- vw_customer_segmentation (RFM grouping)
+- vw_churn_risk (churn prediction)
+- vw_sales_by_media_type (format preference)
+- vw_monthly_new_customers (acquisition)
+- vw_repeat_genre_analysis (genre loyalty)
 
 
 
