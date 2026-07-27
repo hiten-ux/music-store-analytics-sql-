@@ -335,43 +335,7 @@ ORDER BY avg_invoices_per_customer DESC;
 
 
 
-#Quick Queries to get immediate insights:
--- 1. What are our top 10 tracks by revenue?
-SELECT track_name, artist_name, album_title, total_revenue, revenue_rank
-FROM vw_top_tracks
-WHERE revenue_rank <= 10;
 
--- 2. Which countries have the highest repeat purchase rate?
-SELECT segment, repeat_rate_percent
-FROM vw_repeat_purchase_rate
-WHERE segment != 'Overall'
-ORDER BY repeat_rate_percent DESC;
-
--- 3. Who are our high‑risk customers (no purchase in last 6 months)?
-SELECT customer_id, first_name, last_name, country, days_since_last_purchase
-FROM vw_churn_risk
-WHERE churn_risk_level = 'High Risk (6+ months)'
-ORDER BY days_since_last_purchase DESC;
-
--- 4. Monthly revenue and new customers trend
-SELECT
-    a.year_month,
-    a.total_revenue,
-    b.new_customers
-FROM vw_monthly_sales a
-LEFT JOIN vw_monthly_new_customers b ON a.year_month = b.acquisition_month
-ORDER BY a.year_month;
-
--- 5. Sales agent performance ranking
-SELECT first_name, last_name, customers_served, total_revenue_generated, revenue_rank
-FROM vw_employee_performance
-ORDER BY revenue_rank;
-
--- 6. Which genres keep customers coming back?
-SELECT genre_name, avg_invoices_per_customer
-FROM vw_repeat_genre_analysis
-ORDER BY avg_invoices_per_customer DESC
-LIMIT 5;
 
 
 feat: add all 18 business intelligence views
