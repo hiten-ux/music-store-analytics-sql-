@@ -223,22 +223,6 @@ If you find this project useful, please consider giving it a star ⭐ on GitHub!
 
 ---
 
-## ✅ What's Included
 
-| Section | ✓ |
-|---------|---|
-| Title with Emojis & Badges | ✅ |
-| Project Overview | ✅ |
-| Business Problems Solved (Table) | ✅ |
-| Tools & Technologies | ✅ |
-| Repository Structure | ✅ |
-| Database Schema (11 Tables) | ✅ |
-| 18 Views Complete List (Table) | ✅ |
-| Key Insights (With Data) | ✅ |
-| How to Run (Step-by-Step) | ✅ |
-| Documentation Links | ✅ |
-| Related Projects | ✅ |
-| Connect with Me | ✅ |
-| License & Star Section | ✅ |
 
 
