@@ -201,7 +201,7 @@ The dashboard will visualize:
 ## 🔗 Connect with Me
 
 - **GitHub:** [hiten-ux](https://github.com/hiten-ux)
-- **LinkedIn:** [[Your LinkedIn URL]](https://www.linkedin.com/in/hiten-solanki-03bb10413/)
+- **LinkedIn:** [[Your LinkedIn URL]][(https://www.linkedin.com/in/hiten-solanki-03bb10413/)](https://www.linkedin.com/in/hiten-solanki-03bb10413/)
 - **Email:** hi9065965@gmail.com
 
 ---
