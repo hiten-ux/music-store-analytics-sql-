@@ -201,8 +201,8 @@ The dashboard will visualize:
 ## 🔗 Connect with Me
 
 - **GitHub:** [hiten-ux](https://github.com/hiten-ux)
-- **LinkedIn:** [[Your LinkedIn URL]][(https://www.linkedin.com/in/hiten-solanki-03bb10413/)](https://www.linkedin.com/in/hiten-solanki-03bb10413/)
-- **Email:** hi9065965@gmail.com
+- **LinkedIn:** [[Your LinkedIn URL]](https://www.linkedin.com/in/hiten-solanki-03bb10413/)
+- **Email:** hiten0698@gmail.com
 
 ---
 
@@ -220,8 +220,6 @@ If you find this project useful, please consider giving it a star ⭐ on GitHub!
 
 *"Turn data into decisions."*
 ```
-
----
 
 
 
